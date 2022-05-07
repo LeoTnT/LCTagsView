@@ -14,6 +14,8 @@
 		9D863D2828266ABA009BEDC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D863D2728266ABA009BEDC0 /* Assets.xcassets */; };
 		9D863D2B28266ABA009BEDC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D863D2928266ABA009BEDC0 /* LaunchScreen.storyboard */; };
 		9D863D2E28266ABA009BEDC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D863D2D28266ABA009BEDC0 /* main.m */; };
+		9D863D3928266ACC009BEDC0 /* LCTagsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D863D3628266ACB009BEDC0 /* LCTagsView.m */; };
+		9D863D3A28266ACC009BEDC0 /* LCTagsFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D863D3828266ACB009BEDC0 /* LCTagsFrame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		9D863D2A28266ABA009BEDC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D863D2C28266ABA009BEDC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D863D2D28266ABA009BEDC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D863D3528266ACB009BEDC0 /* LCTagsFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCTagsFrame.h; sourceTree = "<group>"; };
+		9D863D3628266ACB009BEDC0 /* LCTagsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCTagsView.m; sourceTree = "<group>"; };
+		9D863D3728266ACB009BEDC0 /* LCTagsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCTagsView.h; sourceTree = "<group>"; };
+		9D863D3828266ACB009BEDC0 /* LCTagsFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCTagsFrame.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +71,7 @@
 				9D863D1C28266AB8009BEDC0 /* AppDelegate.m */,
 				9D863D1E28266AB8009BEDC0 /* SceneDelegate.h */,
 				9D863D1F28266AB8009BEDC0 /* SceneDelegate.m */,
+				9D863D3428266ACB009BEDC0 /* LCTagsView */,
 				9D863D2128266AB8009BEDC0 /* ViewController.h */,
 				9D863D2228266AB8009BEDC0 /* ViewController.m */,
 				9D863D2428266AB8009BEDC0 /* Main.storyboard */,
@@ -74,6 +81,17 @@
 				9D863D2D28266ABA009BEDC0 /* main.m */,
 			);
 			path = LCTagsViewDemo;
+			sourceTree = "<group>";
+		};
+		9D863D3428266ACB009BEDC0 /* LCTagsView */ = {
+			isa = PBXGroup;
+			children = (
+				9D863D3528266ACB009BEDC0 /* LCTagsFrame.h */,
+				9D863D3628266ACB009BEDC0 /* LCTagsView.m */,
+				9D863D3728266ACB009BEDC0 /* LCTagsView.h */,
+				9D863D3828266ACB009BEDC0 /* LCTagsFrame.m */,
+			);
+			path = LCTagsView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,8 +165,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D863D2328266AB8009BEDC0 /* ViewController.m in Sources */,
+				9D863D3A28266ACC009BEDC0 /* LCTagsFrame.m in Sources */,
 				9D863D1D28266AB8009BEDC0 /* AppDelegate.m in Sources */,
 				9D863D2E28266ABA009BEDC0 /* main.m in Sources */,
+				9D863D3928266ACC009BEDC0 /* LCTagsView.m in Sources */,
 				9D863D2028266AB8009BEDC0 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

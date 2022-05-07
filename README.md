@@ -1,10 +1,8 @@
-//
-//  ViewController.m
-//  LCTagsViewDemo
-//
-//  Created by 李超 on 2022/5/7.
-//
+# LCTagsView
+不规则大小tags标签显示View
 
+使用方法
+```
 #import "ViewController.h"
 #import "LCTagsView.h"
 
@@ -35,5 +33,4 @@
     tagsV.frame = frame;
     [self.view addSubview:tagsV];
 }
-
-@end
+```
